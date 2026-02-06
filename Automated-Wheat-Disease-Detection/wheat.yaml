@@ -1,0 +1,11 @@
+# Absolute path to your dataset folder
+path: C:\Users\chavan srikar\Downloads\global-wheat-detection\dataset
+
+# Paths to the train/val image folders (relative to the 'path' above)
+train: images/train
+val: images/val
+
+# --- Class names ---
+# We only have one class: wheat_head
+nc: 1
+names: ['wheat_head']
